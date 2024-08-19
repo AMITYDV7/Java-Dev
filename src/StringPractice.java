@@ -5,6 +5,11 @@ public class StringPractice {
         sB.replace(2,6,"amit");
         System.out.println(sB);
         System.out.println("amit Yadav");
+
+        StringBuilder obj = new StringBuilder("Hello");
+        obj.append("World?");
+
+        System.out.println(obj);
     }
     }
 
