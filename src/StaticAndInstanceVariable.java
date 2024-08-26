@@ -9,5 +9,11 @@ public class StaticAndInstanceVariable {
 
         System.out.println(ins.a);
         System.out.println(ins.b);
+
+        ins.a = 8;
+        ins.b= 23;
+
+        System.out.println(ins.a);
+        System.out.println(ins.b);
     }
 }
