@@ -5,11 +5,11 @@ public class ExceptionHandling {
             System.out.println(10/0);
         }
         catch(Exception e) {
-            e.printStackTrace();
+            e.printStackTrace(); // if we comment this so no exception is shown there
         }
         System.out.println("Hello World");
 
-
+        System.out.println("--------------------------------------------------");
         }
     }
 
